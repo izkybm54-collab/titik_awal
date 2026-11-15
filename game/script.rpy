@@ -1,4 +1,11 @@
-﻿label start:
+﻿define r = Character('Rian')
+define p = Character('Pak Seno')
+define g = Character('Gadis Payung Merah')
+define i = Character('Ibu')
+
+
+
+label start:
     scene stasiun
     "Game dimulai!"
 
