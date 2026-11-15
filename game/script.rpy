@@ -8,4 +8,5 @@
     
     "hai kalian semua"
     "halo selamat pagi"
+    "blablablabal"
     return
