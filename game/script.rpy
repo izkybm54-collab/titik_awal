@@ -24,11 +24,25 @@ label start:
     scene stasiun
     "Game dimulai!"
 
+    n "Layar perlahan terbuka dari gelap. Cahaya lampu neon putih pucat menerangi lantai keramik abu-abu yang lembap."
+    n " Rian duduk menyandar di bangku besi panjang dengan jaket denim lusuh. Di samping kakinya tergeletak sebuah koper hitam"
+
     show boti:
         zoom 0.5
         left
     
-    "hai kalian semua"
-    "halo selamat pagi"
-    "blablablabal"
+    "Jam dua lewat..."
+    "Sebentar. Ini peron berapa? Kok sepi banget?"
+    hide boti
+
+    n "Rian berdiri dan meregangkan bahunya yang kaku. Sejauh mata memandang, ujung peron di sebelah kiri dan kanan tertutup kabut putih tipis."
+    n "Satu-satunya penanda yang menempel di tiang besi hanyalah papan seng tua bertuliskan angka 0"
+
+    show boti:
+        zoom 0.5
+        left
+    " Stasiun Nol. Bagus. Jangan-jangan tadi aku ketiduran di bus terus diturunin di terminal antah-berantah."
+    hide boti
+    
+
     return
