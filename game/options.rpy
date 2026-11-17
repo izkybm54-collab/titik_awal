@@ -13,6 +13,9 @@
 ## Tanda _() yang mengelilingi string menandai itu dapat di terjemahkan.
 
 define config.name = _("Titik awal")
+init python:
+    if "characters" not in config.layers:
+        config.layers.insert(config.layers.index("screens") + 1, "characters")
 
 
 ## Meng determinasikan apakah judul yang di berikan di atas di tampilkan di menu
