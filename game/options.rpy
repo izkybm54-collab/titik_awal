@@ -126,7 +126,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## Sementara angka yang lain adalah berapa karakter per detik yang akan di
 ## tampilkan.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 15
 
 
 ## Delay default otomatis-maju. Nomor yang lebih besar berujung kepada waktu
@@ -214,3 +214,6 @@ init python:
 ## pisahkan dengan garis miring.
 
 # define build.itch_project = "renpytom/test-project"
+define config.main_menu_music = "audio/main_menu.mp3"
+init python:
+    renpy.music.set_volume(1.0, channel="music")
