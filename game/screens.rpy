@@ -1,9 +1,10 @@
 ﻿
-define config.default_text_cps = 40
 
 screen main_menu():
 
     tag menu
+    
+
 
     # Background
     add "images/background_menu.jpg":
