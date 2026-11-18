@@ -51,7 +51,8 @@ label start:
     n "Sambungan telepon terputus. Suara dengung hening memenuhi ruangan. Terdengar langkah kaki tergesa-gesa, ritsleting koper ditarik cepat, lalu pintu kamar ditutup rapat."
 
     r "Sial... kenapa aku ngomong kayak gitu barusan."
-
+    n "Rian langsung mengambil jaket dan tas nya, lalu bergegas menancap gas mobil menuju pintu tol untuk menuju ke rumah orang tua nya"
+    n "Suara jalan tol perlahan menghilang, digantikan hembusan angin malam yang dingin dan dengung lampu neon stasiun."
     with dissolve
 
     scene stasiun
